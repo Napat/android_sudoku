@@ -1,0 +1,80 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="help_category"
+        android:title="Help">
+        <Preference
+            app:fragment="com.github.napat.sudoku.fragment.SettingMessagesFragment"
+            android:icon="@drawable/ic_message"
+            android:title="Messages" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="notifications_category"
+        app:title="Notifications">
+
+        <SwitchPreferenceCompat
+            android:icon="@drawable/ic_notifications"
+            app:key="notifications"
+            app:title="Enable message notifications" />
+
+        <SwitchPreferenceCompat
+            android:icon="@drawable/ic_volume_up"
+            app:key="sound_notifications"
+            app:title="Enable sound notifications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="help_category"
+        android:title="Help">
+
+        <Preference
+            android:icon="@drawable/ic_feedback"
+            android:key="feedback"
+            android:summary="Report technical issues or suggest new features"
+            android:title="Send feedback" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="reply1"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply1"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            android:key="reply2"
+            android:summary="Reply2"
+            android:title="Default reply2 action" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

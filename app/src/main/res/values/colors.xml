@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="sudokuBackground">#FFE6F0FF</color>
+    <color name="sudokuHighlight">#FFFFFFFF</color>
+    <color name="sudokuLight">#64C6D4EF</color>
+    <color name="sudokuDark">#6456648F</color>
+    <color name="sudokuForeground">#FF000000</color>
+    <color name="sudokuFontInputNumber">#FF0000FF</color>
+    <color name="sudokuHint0">#64FF0000</color>
+    <color name="sudokuHint1">#6400DD80</color>
+    <color name="sudokuHint2">#2000FF80</color>
+    <color name="sudokuSelected">#64FF8000</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <Button android:id="@+id/keypad1" android:text="@string/dialog_sudoku_keypad_1" />
+        <Button android:id="@+id/keypad2" android:text="@string/dialog_sudoku_keypad_2" />
+        <Button android:id="@+id/keypad3" android:text="@string/dialog_sudoku_keypad_3" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/keypad4" android:text="@string/dialog_sudoku_keypad_4" />
+        <Button android:id="@+id/keypad5" android:text="@string/dialog_sudoku_keypad_5" />
+        <Button android:id="@+id/keypad6" android:text="@string/dialog_sudoku_keypad_6" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/keypad7" android:text="@string/dialog_sudoku_keypad_7" />
+        <Button android:id="@+id/keypad8" android:text="@string/dialog_sudoku_keypad_8" />
+        <Button android:id="@+id/keypad9" android:text="@string/dialog_sudoku_keypad_9" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/keypadClear"
+            android:text="@string/dialog_sudoku_keypad_clear_number"
+            android:layout_span="3" />
+    </TableRow>
+
+</TableLayout>

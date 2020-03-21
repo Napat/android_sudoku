@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="main_title">Play Sudoku</string>
+    <string name="continue_label">Continued from previous</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About Sudoku</string>
+    <string name="exit_label">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="setting_pref_music">music</string>
+    <string name="setting_pref_hints">hints</string>
+    <string name="dialog_sudoku_keypad_1">1</string>
+    <string name="dialog_sudoku_keypad_2">2</string>
+    <string name="dialog_sudoku_keypad_3">3</string>
+    <string name="dialog_sudoku_keypad_4">4</string>
+    <string name="dialog_sudoku_keypad_5">5</string>
+    <string name="dialog_sudoku_keypad_6">6</string>
+    <string name="dialog_sudoku_keypad_7">7</string>
+    <string name="dialog_sudoku_keypad_8">8</string>
+    <string name="dialog_sudoku_keypad_9">9</string>
+    <string name="dialog_sudoku_keypad_clear_number">Clear Number</string>
+    <string name="help_label">Help</string>
+    <string name="open_drawer">Open Menu</string>
+    <string name="close_drawer">Close Menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status_label">Status</string>
+</resources>
